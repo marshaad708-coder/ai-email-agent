@@ -1,0 +1,3 @@
+pyyaml>=6.0
+# optional, only needed for LLM classification:
+# ollama>=0.4.0

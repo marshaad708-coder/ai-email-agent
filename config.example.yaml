@@ -1,0 +1,9 @@
+# Copy to config.yaml and fill in your own values. NEVER commit config.yaml.
+imap:
+  host: "imap.gmail.com"
+  email: "you@gmail.com"
+  app_password: "xxxx-xxxx-xxxx-xxxx"   # Gmail app password, not your login password
+
+classifier:
+  use_llm: false        # set true if Ollama is running locally
+  llm_model: "llama3.1"
