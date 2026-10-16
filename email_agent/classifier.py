@@ -24,7 +24,7 @@ def classify_rulebased(subject: str, sender: str, snippet: str) -> str:
         return "spam"
     if any(k in text for k in URGENT_KEYWORDS):
         return "urgent"
-    if any(h in sender.lower() for h in NEWSLETTER_HINTS):
+    if any(h in sender.lower() or h in text for h in NEWSLETTER_HINTS):
         return "spam"
     return "personal"
 
