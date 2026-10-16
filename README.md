@@ -1,6 +1,7 @@
 # AI Email Agent
 
-> Watch it in action: [YouTube video](https://www.youtube.com/) *(link your Day 1 video here)*
+> Watch it in action: [YouTube video](https://youtube.com/shorts/jBLeLDdXn5E)
+
 
 An AI agent that reads your inbox, sorts incoming mail into **urgent / spam / personal**,
 and **drafts replies** for the urgent ones. You stay in control — nothing is ever sent
